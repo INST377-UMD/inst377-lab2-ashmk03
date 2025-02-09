@@ -1,0 +1,70 @@
+<DOCTYPE! html>
+    <html>
+        <meta charset="UTF-8">
+        <head>
+            <title>Course Registration</title>
+            <style>
+                body {
+                    background-color: rgb(255, 219, 200);
+                }
+
+                #subButton {
+                    background-color: rgb(241, 227, 213); 
+                    border-radius: 8px; 
+                    font-size: 16px;
+                    color: rgb(148, 71, 71); 
+                    border: 2.5px solid
+                }
+                #subButton:hover {
+                    background-color: #ff6b63;
+                    color: rgb(0, 0, 0);
+                }
+
+                input {
+                    background-color: rgb(255, 248, 224);
+                    color: rgb(0, 0, 0);
+                    border: 2px solid;
+                    border-radius: 8px;
+                    font-size: 16px
+                }
+
+                .regInfo {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                font-size:18px
+                }
+            </style>
+                
+        </head>
+        <body>
+            
+            <h1 style="text-align: center">Fill Out Classes For Fall 2025!</h1>
+            <form name="Class Registration Form" style="text-align: center" method="get" action="Lab2Sucess.html">
+
+                <div class = "regInfo">
+
+                <label for="firstName">First Name: </label>
+                <input type="text" id="fName" placeholder="ex. Ashley" required>
+                
+                <br></br>
+            
+                <label for="lastName">Last Name: </label>
+                <input type="text" id="lastName" placeholder="ex. Kharbanda" required>
+
+                <br></br>
+                <label for="depCode">Department Code: </label>
+                <input type="text" id="depCode" placeholder="ex. INST" required>
+                <br></br>
+
+                <label for="secNum">Section Number: </label>
+                <input type="text" id="secNum" placeholder="ex. 0201" required>
+                <br></br>
+
+                </div>
+                
+                <input type="submit" id="subButton" value="Register">
+
+            </form>
+        </body>
+    </html>
+</DOCTYPE>
